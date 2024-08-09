@@ -14,6 +14,7 @@ cd Python-3.9.19
 ./configure --enable-optimizations --with-ssl
 
 make -j4  # Utiliza el número apropiado de núcleos de CPU para acelerar la compilación
+
 sudo make altinstall
 
 python3.8 --version
